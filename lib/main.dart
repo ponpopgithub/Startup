@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'Startup namer',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Startup namer'),
+          title: const Text('Startup namer V.1'),
         ),
         body: const Center(
           child: const Text('My Company'),
