@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
+import 'package:startup_namer/theme.dart';
+import 'package:startup_namer/theme.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,6 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Startup NamerV.1',
       home: Randomwords(),
+      theme: ThemeData(primaryColor: primaryTheme),
     );
   }
 }
